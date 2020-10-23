@@ -13,7 +13,7 @@ package com.j3dream.android.build
  */
 object Dependencies {
 
-    val kotlin = ""
+    val kotlin_stdlib = buildDependency("org.jetbrains.kotlin:kotlin-stdlib", DepVersions.kotlin)
     val Luban = buildDependency("top.zibin:Luban", DepVersions.Luban)
     val rxpermissions = buildDependency("com.github.tbruyelle:rxpermissions", DepVersions.rxpermissions)
     val BaseRecyclerViewAdapterHelper = buildDependency("com.github.CymChad:BaseRecyclerViewAdapterHelper", DepVersions.BaseRecyclerViewAdapterHelper)

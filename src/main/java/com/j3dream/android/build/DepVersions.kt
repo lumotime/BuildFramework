@@ -13,7 +13,7 @@ package com.j3dream.android.build
  */
 internal object DepVersions {
 
-    const val kotlin = "1.3.71"
+    const val kotlin = "1.4.10"
     const val Luban = "1.1.8"
     const val rxpermissions = "0.10.2"
     const val BaseRecyclerViewAdapterHelper = "2.9.49-androidx"

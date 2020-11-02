@@ -30,8 +30,9 @@ object Dependencies {
         val codec = buildDependency("commons-codec:commons-codec", DepVersions.Commons.codec)
     }
 
-    object FrameWork {
+    object Framework {
         val core = buildDependency("com.j3dream:core", DepVersions.Framework.core)
+        val common_android = buildDependency("com.j3dream.android:common", DepVersions.Framework.common_android)
     }
 
     object Test {

@@ -28,6 +28,7 @@ object Dependencies {
 
     object Commons {
         val codec = buildDependency("commons-codec:commons-codec", DepVersions.Commons.codec)
+        val pool2 = buildDependency("org.apache.commons:commons-pool2:", DepVersions.Commons.pool2)
     }
 
     object Framework {

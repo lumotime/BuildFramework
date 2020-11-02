@@ -27,6 +27,7 @@ internal object DepVersions {
 
     object Commons {
         const val codec = "1.14"
+        const val pool2 = "2.8.0"
     }
 
     object Framework {

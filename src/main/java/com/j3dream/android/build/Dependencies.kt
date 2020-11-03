@@ -25,6 +25,15 @@ object Dependencies {
     val glide = buildDependency("com.github.bumptech.glide:glide", DepVersions.glide)
     val glide_compiler = buildDependency("com.github.bumptech.glide:compiler", DepVersions.glide)
     val eventbus = buildDependency("org.greenrobot:eventbus", DepVersions.eventbus)
+    val rxjava = buildDependency("io.reactivex.rxjava2:rxjava", DepVersions.rxjava)
+    val rxandroid = buildDependency("io.reactivex.rxjava2:rxandroid", DepVersions.rxandroid)
+    val retrofit = buildDependency("com.squareup.retrofit2:retrofit", DepVersions.retrofit)
+    val retrofit_convert_rxjava = buildDependency(
+            "com.squareup.retrofit2:adapter-rxjava2",
+            DepVersions.retrofit_convert_rxjava
+    )
+    val retrofit_convert_gson =
+            buildDependency("com.squareup.retrofit2:converter-gson", DepVersions.retrofit_convert_gson)
 
     object Commons {
         val codec = buildDependency("commons-codec:commons-codec", DepVersions.Commons.codec)

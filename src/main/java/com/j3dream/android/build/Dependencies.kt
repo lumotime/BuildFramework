@@ -34,6 +34,8 @@ object Dependencies {
     object Framework {
         val core = buildDependency("com.j3dream:core", DepVersions.Framework.core)
         val common_android = buildDependency("com.j3dream.android:common", DepVersions.Framework.common_android)
+        val common_idreader = buildDependency("com.j3dream.android:idreader", DepVersions.Framework.idreader_android)
+        val common_arcface = buildDependency("com.j3dream.android:arcface", DepVersions.Framework.arcface_android)
     }
 
     object Test {

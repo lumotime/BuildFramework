@@ -33,6 +33,8 @@ internal object DepVersions {
     object Framework {
         const val core = "0.1.1"
         const val common_android = "0.1.1"
+        const val idreader_android = "0.1.1"
+        const val arcface_android = "0.1.1"
     }
 
     object Test {

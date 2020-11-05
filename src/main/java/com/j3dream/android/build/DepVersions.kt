@@ -29,6 +29,8 @@ internal object DepVersions {
     const val retrofit = "2.3.0"
     const val retrofit_convert_rxjava = retrofit
     const val retrofit_convert_gson = retrofit
+    const val stetho = "1.5.1"
+    const val zxing = "3.3.0"
 
     object Commons {
         const val codec = "1.14"

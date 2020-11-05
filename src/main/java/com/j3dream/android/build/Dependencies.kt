@@ -13,6 +13,8 @@ package com.j3dream.android.build
  */
 object Dependencies {
 
+    val localDeps: LocalDependencies = LocalDependencies()
+
     val kotlin_stdlib = buildDependency("org.jetbrains.kotlin:kotlin-stdlib", DepVersions.kotlin)
     val Luban = buildDependency("top.zibin:Luban", DepVersions.Luban)
     val rxpermissions = buildDependency("com.github.tbruyelle:rxpermissions", DepVersions.rxpermissions)
@@ -34,8 +36,10 @@ object Dependencies {
     )
     val retrofit_convert_gson =
             buildDependency("com.squareup.retrofit2:converter-gson", DepVersions.retrofit_convert_gson)
-
-    val localDeps: LocalDependencies = LocalDependencies()
+    // chrome 查看sqlite数据库
+    val stetho = buildDependency("com.facebook.stetho:stetho", DepVersions.stetho)
+    // 二维码扫描数据库
+    val zxing_android = buildDependency("com.google.zxing:android-core", DepVersions.zxing)
 
     object Commons {
         val codec = buildDependency("commons-codec:commons-codec", DepVersions.Commons.codec)

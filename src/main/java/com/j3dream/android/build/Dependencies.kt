@@ -35,6 +35,8 @@ object Dependencies {
     val retrofit_convert_gson =
             buildDependency("com.squareup.retrofit2:converter-gson", DepVersions.retrofit_convert_gson)
 
+    val localDeps: LocalDependencies = LocalDependencies()
+
     object Commons {
         val codec = buildDependency("commons-codec:commons-codec", DepVersions.Commons.codec)
         val pool2 = buildDependency("org.apache.commons:commons-pool2:", DepVersions.Commons.pool2)
@@ -111,7 +113,7 @@ object Dependencies {
      * @param version 依赖所使用的版本号
      * @return 依赖全地址
      */
-    private fun buildDependency(path: String, version: String): String{
+    fun buildDependency(path: String, version: String): String{
         val dependency = StringBuffer()
         dependency.append(path)
         if (!path.endsWith(":")){

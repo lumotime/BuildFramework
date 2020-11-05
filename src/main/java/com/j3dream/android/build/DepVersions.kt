@@ -52,14 +52,30 @@ internal object DepVersions {
 
     object AndroidX{
         const val core_ktx = "1.3.2"
+        const val concurrent_futures = "1.1.0"
+        const val arch_core = "2.1.0"
         const val appcompat = "1.2.0"
         const val constraintlayout = "2.0.2"
         const val multidex = "2.0.1"
         const val recyclerview = "1.1.0"
+        const val viewpager2 = "1.0.0"
+        const val emoji = "1.1.0"
+        const val startup = "1.0.0"
+        const val jetpack_room = "2.2.3"
+        const val jetpack_camera = "1.0.0-beta10"
+        const val jetpack_workmanager = "2.3.0"
+        const val jetpack_fragment = "1.2.5"
+        const val jetpack_lifecycle = "2.2.0"
+        const val jetpack_paging = "2.2.0"
+        const val material = "1.2.1"
+        const val exifinterface = "1.3.1"
+        const val cardview = "1.0.0"
     }
 
     object Tencent {
         const val qmui = "2.0.0-alpha10"
         const val bugly_crash = "2.8.6.0"
+        const val mmkv = "1.2.4"
+        const val x5tbs = "43939"
     }
 }
